@@ -35,7 +35,7 @@ return array
     array.pop();
     return array
   }
-  function removeElementFromEndofArray(array, element){
+  function removeElementFromEndOfArray(array, element){
     array.slice(0, array.length - 1);
     return array
   }
