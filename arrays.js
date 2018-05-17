@@ -4,6 +4,8 @@ function addElementToBeginningOfArray(element){
   var myArray = [1];
   
   ["${element}", ...myArray]
+  
+  return myArray
 }
 
   
