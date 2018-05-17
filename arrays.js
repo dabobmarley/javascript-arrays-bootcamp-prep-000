@@ -5,6 +5,6 @@ function addElementToBeginningOfArray(element){
   
   [${element}, ...myArray]
   
-  return myArray
+  return function addElementToBeginningOfArray()
   
 }
